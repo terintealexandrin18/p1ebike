@@ -11,11 +11,14 @@ body {
 header a {
     text-decoration: none;
     color: inherit;
+    display: block;
 }
 
 nav a {
     text-decoration: none;
     color: inherit;
+
+
 
 }
 
@@ -31,7 +34,10 @@ footer {
 }
 
 #title {
-    color: #c51f1a;
+    color: #25645d;
+    text-align: center;
+    margin: 5px;
+    padding: 5px
 }
 
 @media only screen and (max-width: 412px) {
