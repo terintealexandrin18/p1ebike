@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
 nav {
     background-color: brown;
     color: blueviolet;
 }
+
 header {
     background-color: aqua;
     color: pink;
+}
+
+footer {
+    margin-top: auto;
 }
