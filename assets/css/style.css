@@ -8,22 +8,48 @@ body {
     flex-direction: column;
 }
 
-
-nav {
-    background-color: brown;
-    color: blueviolet;
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
-header {
-    background-color: aqua;
-    color: pink;
+nav a {
+    text-decoration: none;
+    color: inherit;
+
 }
+
 
 h1 {
     font-family: 'REM', sans-serif;
+    text-transform: none;
 
 }
 
 footer {
     margin-top: auto;
+}
+
+#title {
+    color: #c51f1a;
+}
+
+@media only screen and (max-width: 412px) {
+    #title {
+        font-size: 2em;
+    }
+}
+
+
+
+@media only screen and (min-width: 412px) {
+    #title {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #title {
+        font-size: 5em;
+    }
 }
