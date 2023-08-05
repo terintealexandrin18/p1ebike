@@ -2,6 +2,7 @@
 
 
 body {
+    font-family: 'Mukta', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,6 +17,11 @@ nav {
 header {
     background-color: aqua;
     color: pink;
+}
+
+h1 {
+    font-family: 'REM', sans-serif;
+
 }
 
 footer {
