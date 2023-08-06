@@ -46,6 +46,16 @@ footer {
     background-color: #97c3b4;
 }
 
+#background {
+    background-image: url('../picture/ebikeb1.jpg');
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+    padding-bottom: 140px;
+}
+
 #nav {
     text-align: center;
     padding: 5px 30px 5px 30px;
