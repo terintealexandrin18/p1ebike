@@ -47,7 +47,19 @@ footer {
 
 }
 
-.overbackground {}
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.flex-container>h5 {
+    font-size: 2rem;
+    color: #edf3e8;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+}
 
 
 #nav {
@@ -71,7 +83,7 @@ footer {
     background-color: #2a3e40;
     background-image: url('../picture/background.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 
 }
