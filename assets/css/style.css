@@ -11,20 +11,22 @@ body {
 header a {
     text-decoration: none;
     color: inherit;
-    display: block;
+
 }
 
 nav a {
     text-decoration: none;
     color: inherit;
-
+    padding-right: 30px;
 
 
 }
 
 
+
 h1 {
-    font-family: 'REM', sans-serif;
+    font-family: 'Roboto Mono',
+        monospace;
     text-transform: none;
 
 }
@@ -33,16 +35,44 @@ footer {
     margin-top: auto;
 }
 
+.nav-bar {
+    font-family: 'REM', sans-serif;
+    color: #52645d;
+    font-size: x-large;
+
+}
+
+.active {
+    background-color: #97c3b4;
+}
+
+#nav {
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+
+
+
+}
+
 #title {
-    color: #25645d;
+    color: #2a3f29;
     text-align: center;
     margin: 5px;
-    padding: 5px
+    padding: 5px;
+    text-shadow: 2px 2px 8px #97c3b4;
 }
+
 
 @media only screen and (max-width: 412px) {
     #title {
         font-size: 2em;
+    }
+
+    .nav-bar {
+        font-family: 'REM', sans-serif;
+        color: #52645d;
+        font-size: large;
+
     }
 }
 
