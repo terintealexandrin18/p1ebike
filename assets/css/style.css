@@ -61,6 +61,18 @@ footer {
 
 }
 
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 50%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
 
 #nav {
     text-align: center;
