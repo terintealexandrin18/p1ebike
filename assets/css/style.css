@@ -35,6 +35,8 @@ footer {
     margin-top: auto;
 }
 
+
+
 .nav-bar {
     font-family: 'REM', sans-serif;
     color: #52645d;
@@ -62,16 +64,21 @@ footer {
 }
 
 .google-map {
-    padding-bottom: 50%;
-    position: relative;
+    height: 200px;
+
 }
 
 .google-map iframe {
-    height: 50%;
+    height: 100%;
     width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
+
+}
+
+.social-media {
+    text-align: center;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #nav {
@@ -100,7 +107,11 @@ footer {
 
 }
 
-
+#legend {
+    text-align: center;
+    color: #2a3f29;
+    font-size: 20px;
+}
 
 
 
