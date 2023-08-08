@@ -46,6 +46,7 @@ footer {
 
 .active {
     background-color: #97c3b4;
+    border-radius: 15px;
 
 }
 
@@ -79,6 +80,8 @@ footer {
     font-size: x-large;
     display: flex;
     justify-content: space-evenly;
+    background-color: #97c3b4;
+    border-radius: 15px 15px 0 0;
 }
 
 #nav {
@@ -108,56 +111,66 @@ footer {
 }
 
 #legend {
+    font-family: 'REM', sans-serif;
     text-align: center;
     color: #2a3f29;
     font-size: 20px;
 }
 
+#drivers-offers {
+
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
 
 
-@media only screen and (max-width: 412px) {
-    #title {
-        font-size: 2em;
+
+    @media only screen and (max-width: 412px) {
+        #title {
+            font-size: 2em;
+        }
+
+        .nav-bar {
+            font-family: 'REM', sans-serif;
+            color: #52645d;
+            font-size: large;
+
+        }
+
+        .flex-container>h5 {
+            font-size: 20px;
+            background-color: #97c3b496;
+            text-align: center;
+        }
     }
 
-    .nav-bar {
-        font-family: 'REM', sans-serif;
-        color: #52645d;
-        font-size: large;
+
+
+    @media only screen and (min-width: 412px) {
+        #title {
+            font-size: 3em;
+        }
+
+        .flex-container>h5 {
+            font-size: 25px;
+            background-color: #97c3b496;
+            text-align: center;
+        }
 
     }
 
-    .flex-container>h5 {
-        font-size: 20px;
-        background-color: #97c3b496;
-        text-align: center;
+
+    @media only screen and (min-width: 768px) {
+        #title {
+            font-size: 5em;
+        }
+
+        .flex-container>h5 {
+            font-size: 30px;
+            text-align: right;
+            background-color: #97c3b496;
+        }
     }
-}
-
-
-
-@media only screen and (min-width: 412px) {
-    #title {
-        font-size: 3em;
-    }
-
-    .flex-container>h5 {
-        font-size: 25px;
-        background-color: #97c3b496;
-        text-align: center;
-    }
-
-}
-
-
-@media only screen and (min-width: 768px) {
-    #title {
-        font-size: 5em;
-    }
-
-    .flex-container>h5 {
-        font-size: 30px;
-        text-align: right;
-        background-color: #97c3b496;
-    }
-}
