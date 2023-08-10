@@ -24,7 +24,12 @@ nav a {
 
 
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Roboto Mono',
         monospace;
     text-transform: none;
@@ -76,6 +81,20 @@ footer {
 
 }
 
+.about-us {
+    margin: inherit;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.fooddelivery {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
 .social-media {
     text-align: center;
     font-size: x-large;
@@ -86,27 +105,16 @@ footer {
 }
 
 
-
-.drivers-offers {
-    position: absolute;
-    width: 70%;
-    left: 10%;
-    background-color: aquamarine;
-    padding: 25px;
-}
-
-
-
-.fooddeliveryimg {
-    float: right;
-    width: 30%;
-}
-
-.flex-container1 {
+.container {
     display: flex;
-    align-items: center;
+    justify-content: center;
+
+}
 
 
+.driver {
+    width: 30%;
+    height: 480px;
 }
 
 
@@ -143,11 +151,6 @@ footer {
     font-size: 20px;
 }
 
-#driver-title {
-    color: #2a3f29;
-    font-size: x-large;
-
-}
 
 
 
