@@ -81,17 +81,7 @@ footer {
 
 }
 
-.about-us {
-    margin: inherit;
-    padding: 25px;
-    font-size: 20px;
-}
 
-.fooddelivery {
-    width: 300px;
-    padding: 10px;
-    font-size: 20px;
-}
 
 
 
@@ -105,17 +95,24 @@ footer {
 }
 
 
-.container {
-    display: flex;
-    justify-content: center;
+.about-us {
+    margin: inherit;
+    padding: 25px;
+    font-size: 20px;
+}
 
+.fooddelivery {
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.driver {
-    width: 30%;
-    height: 480px;
-}
+
+
+
 
 
 #nav {
@@ -174,6 +171,19 @@ footer {
         background-color: #97c3b496;
         text-align: center;
     }
+
+    .container: {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .driver {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
 
 
@@ -189,6 +199,19 @@ footer {
         text-align: center;
     }
 
+    .container: {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .driver {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
 
 
@@ -201,5 +224,16 @@ footer {
         font-size: 30px;
         text-align: right;
         background-color: #97c3b496;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .driver {
+        width: 30%;
+        height: 480px;
     }
 }
