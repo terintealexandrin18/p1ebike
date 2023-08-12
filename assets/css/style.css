@@ -110,7 +110,13 @@ footer {
 }
 
 
-
+.timetable {
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
 
 
 
