@@ -178,7 +178,7 @@ footer {
         text-align: center;
     }
 
-    .container: {
+    .container {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -205,7 +205,7 @@ footer {
         text-align: center;
     }
 
-    .container: {
+    .container {
         display: flex;
         align-items: center;
         flex-direction: column;
