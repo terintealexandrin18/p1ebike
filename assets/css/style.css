@@ -168,7 +168,7 @@ footer {
     .nav-bar {
         font-family: 'REM', sans-serif;
         color: #52645d;
-        font-size: large;
+        font-size: small;
 
     }
 
@@ -235,6 +235,7 @@ footer {
     .container {
         display: flex;
         justify-content: center;
+        flex-direction: row;
 
     }
 
