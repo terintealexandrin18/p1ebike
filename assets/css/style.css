@@ -40,6 +40,9 @@ footer {
     margin-top: auto;
 }
 
+textarea {
+    width: 100%
+}
 
 
 .nav-bar {
@@ -151,6 +154,15 @@ footer {
     background-size: cover
 }
 
+.booking {
+    flex-grow: 1;
+    margin: auto;
+    width: 50%;
+    border: 3px solid #97c3b4;
+    padding: 10px;
+    text-align: left;
+    border-radius: 15px;
+}
 
 
 #nav {
@@ -242,6 +254,11 @@ footer {
         width: 325px;
         height: 325px;
     }
+
+    .booking {
+        font-size: small;
+        line-height: 1.5;
+    }
 }
 
 
@@ -291,6 +308,11 @@ footer {
         width: 400px;
         height: 400px;
     }
+
+    .booking {
+        font-size: larger;
+        line-height: 1.8;
+    }
 }
 
 
@@ -335,6 +357,11 @@ footer {
         padding: 5px;
         width: 515px;
         height: 400px;
+    }
+
+    .booking {
+        font-size: x-large;
+        line-height: 2;
     }
 
 }
