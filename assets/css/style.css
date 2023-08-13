@@ -164,11 +164,24 @@ textarea {
     border-radius: 15px;
 }
 
+.form {
+    display: block;
+    border: 1px solid #97c3b4;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
 .submit {
-    text-align: center;
+    display: block;
+    width: fit-content;
     padding: 5px 30px 5px 30px;
+    margin: auto;
     font-family: 'REM', sans-serif;
     font-size: x-large;
+    background-color: #97c3b4;
+    border: 0;
+    border-radius: 15px;
 }
 
 #nav {

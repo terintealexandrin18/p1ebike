@@ -50,6 +50,7 @@
           <h2 id="book">Book Your Service</h2>
           <label for="fname">First Name</label>
           <input
+            class="form"
             id="fname"
             type="text"
             name="first_name"
@@ -60,6 +61,7 @@
         <div>
           <label for="lname">Last Name</label>
           <input
+            class="form"
             id="lname"
             type="text"
             name="last_name"
@@ -70,6 +72,7 @@
         <div>
           <label for="email">Email Address</label>
           <input
+            class="form"
             id="email"
             type="email"
             name="email_address"
@@ -79,7 +82,7 @@
         </div>
         <div>
           <label for="service">Service</label>
-          <select id="service" name="service" required>
+          <select class="form" id="service" name="service" required>
             <option value="new e-bike conversion kit">
               New E-bike Conversion Kit
             </option>
@@ -91,16 +94,17 @@
         </div>
         <div>
           <label for="date">Date Of Booking</label>
-          <input id="date" type="date" name="date" required />
+          <input class="form" id="date" type="date" name="date" required />
         </div>
         <div>
           <label for="time">Time Of Booking</label>
-          <input id="time" type="time" name="time" required />
+          <input class="form" id="time" type="time" name="time" required />
         </div>
         <div>
           <label for="commets">Comments and Notes</label>
           <br />
           <textarea
+            class="form"
             name="comments"
             id="comments"
             cols="50"
@@ -108,8 +112,8 @@
             placeholder="Please provide any information that may assist us in diagnosing and repairing issues with your bike."
           ></textarea>
         </div>
-        <div div class="submit">
-          <input type="submit" value="Submit Form" />
+        <div>
+          <input class="submit" type="submit" value="Submit Form" />
         </div>
       </form>
     </section>
