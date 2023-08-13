@@ -370,7 +370,7 @@ ul {
 
     .driver {
         width: 30%;
-        height: 480px;
+        height: auto;
     }
 
     .conversion {
