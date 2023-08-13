@@ -198,7 +198,9 @@ textarea {
     font-size: 20px;
 }
 
-
+#book {
+    text-align: center;
+}
 
 
 
@@ -249,7 +251,6 @@ textarea {
     }
 
     .conversion {
-        position: relative;
         padding: 5px;
         width: 325px;
         height: 325px;
