@@ -45,10 +45,10 @@ textarea {
 }
 
 
+
 .nav-bar {
     font-family: 'REM', sans-serif;
     color: #52645d;
-    font-size: x-large;
 
 }
 
@@ -164,6 +164,12 @@ textarea {
     border-radius: 15px;
 }
 
+.submit {
+    text-align: center;
+    padding: 5px 30px 5px 30px;
+    font-family: 'REM', sans-serif;
+    font-size: x-large;
+}
 
 #nav {
     text-align: center;
@@ -212,8 +218,7 @@ textarea {
     }
 
     .nav-bar {
-        font-family: 'REM', sans-serif;
-        color: #52645d;
+
         font-size: small;
 
     }
@@ -275,6 +280,11 @@ textarea {
         text-align: center;
     }
 
+    .nav-bar {
+
+        font-size: large;
+    }
+
     .container {
         display: flex;
         align-items: center;
@@ -326,6 +336,11 @@ textarea {
         font-size: 30px;
         text-align: right;
         background-color: #97c3b496;
+    }
+
+    .nav-bar {
+
+        font-size: x-large;
     }
 
     .container {
