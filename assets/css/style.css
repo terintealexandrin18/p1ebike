@@ -44,7 +44,9 @@ textarea {
     width: 100%
 }
 
-
+ul {
+    list-style-type: square;
+}
 
 .nav-bar {
     font-family: 'REM', sans-serif;
@@ -226,9 +228,6 @@ textarea {
 
 
 @media only screen and (max-width: 412px) {
-    #title {
-        font-size: 2em;
-    }
 
     .nav-bar {
 
@@ -255,6 +254,17 @@ textarea {
         width: 50%;
     }
 
+    .conversion {
+        padding: 5px;
+        width: 325px;
+        height: 325px;
+    }
+
+    .booking {
+        font-size: small;
+        line-height: 1.5;
+    }
+
     #sidetoside {
         display: flex;
         background-color: #2a3e40;
@@ -268,16 +278,11 @@ textarea {
         align-items: center;
     }
 
-    .conversion {
-        padding: 5px;
-        width: 325px;
-        height: 325px;
+    #title {
+        font-size: 2em;
     }
 
-    .booking {
-        font-size: small;
-        line-height: 1.5;
-    }
+
 }
 
 
@@ -312,6 +317,18 @@ textarea {
         width: 50%;
     }
 
+    .conversion {
+        position: relative;
+        padding: 5px;
+        width: 400px;
+        height: 400px;
+    }
+
+    .booking {
+        font-size: larger;
+        line-height: 1.8;
+    }
+
     #sidetoside {
         display: flex;
         background-color: #2a3e40;
@@ -326,24 +343,12 @@ textarea {
         align-items: center;
     }
 
-    .conversion {
-        position: relative;
-        padding: 5px;
-        width: 400px;
-        height: 400px;
-    }
 
-    .booking {
-        font-size: larger;
-        line-height: 1.8;
-    }
 }
 
 
 @media only screen and (min-width: 768px) {
-    #title {
-        font-size: 5em;
-    }
+
 
     .flex-container>h5 {
         font-size: 30px;
@@ -368,6 +373,22 @@ textarea {
         height: 480px;
     }
 
+    .conversion {
+        position: relative;
+        padding: 5px;
+        width: 515px;
+        height: 400px;
+    }
+
+    .booking {
+        font-size: x-large;
+        line-height: 2;
+    }
+
+    #title {
+        font-size: 5em;
+    }
+
     #sidetoside {
         display: flex;
         flex-direction: row-reverse;
@@ -381,16 +402,6 @@ textarea {
         justify-content: space-evenly;
     }
 
-    .conversion {
-        position: relative;
-        padding: 5px;
-        width: 515px;
-        height: 400px;
-    }
 
-    .booking {
-        font-size: x-large;
-        line-height: 2;
-    }
 
 }
