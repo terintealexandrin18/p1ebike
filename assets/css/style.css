@@ -61,6 +61,10 @@ legend {
     font-size: 20px;
 }
 
+aside {
+    width: 300px;
+}
+
 .active {
     background-color: #97c3b4;
     border-radius: 15px;
@@ -121,11 +125,11 @@ legend {
 
 
 .timetable {
-    font-size: 18px;
-    display: block;
+    font-size: 20px;
     margin-left: auto;
     margin-right: auto;
     width: max-content;
+    padding: 10px;
 }
 
 .services {
@@ -191,6 +195,14 @@ legend {
     border-radius: 15px;
 }
 
+.driver {
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+
 #nav {
     text-align: center;
     padding: 5px 30px 30px 30px;
@@ -254,9 +266,9 @@ legend {
 
     .driver {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 90%;
+
+
     }
 
     .conversion {
@@ -324,8 +336,6 @@ legend {
 
     .driver {
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 50%;
     }
 
