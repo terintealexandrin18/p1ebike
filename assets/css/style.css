@@ -273,6 +273,8 @@ legend {
     .social-media {
 
         font-size: 1.5rem;
+        padding: 1px;
+
     }
 
     #sidetoside {
@@ -342,6 +344,7 @@ legend {
     .social-media {
 
         font-size: 2rem;
+        padding: 5px;
     }
 
     #sidetoside {
@@ -403,6 +406,7 @@ legend {
     .social-media {
 
         font-size: 3rem;
+        padding: 10px;
     }
 
 
