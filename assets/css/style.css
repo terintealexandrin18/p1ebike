@@ -54,6 +54,12 @@ ul {
 
 }
 
+legend {
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    color: #2a3f29;
+    font-size: 20px;
+}
 
 .active {
     background-color: #97c3b4;
@@ -188,7 +194,7 @@ ul {
 
 #nav {
     text-align: center;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 30px 30px 30px;
 
 
 }
@@ -212,12 +218,7 @@ ul {
 
 }
 
-#legend {
-    font-family: 'REM', sans-serif;
-    text-align: center;
-    color: #2a3f29;
-    font-size: 20px;
-}
+
 
 #book {
     text-align: center;
