@@ -80,9 +80,8 @@ aside {
 .flex-container>h5 {
 
     color: #edf3e8;
-    padding-right: 20px;
-    padding-bottom: 10px;
-
+    padding: 5px;
+    background-color: #97c3b4c9;
 }
 
 .google-map {
@@ -254,7 +253,7 @@ aside {
 
     .flex-container>h5 {
         font-size: 20px;
-        background-color: #97c3b496;
+
         text-align: center;
     }
 
@@ -286,7 +285,14 @@ aside {
 
         font-size: 1.5rem;
         padding: 1px;
+    }
 
+    .services {
+        height: 355px;
+    }
+
+    .services1 {
+        height: 355px;
     }
 
     #sidetoside {
@@ -318,7 +324,6 @@ aside {
 
     .flex-container>h5 {
         font-size: 25px;
-        background-color: #97c3b496;
         text-align: center;
     }
 
@@ -357,6 +362,14 @@ aside {
         padding: 5px;
     }
 
+    .services {
+        height: 355px;
+    }
+
+    .services1 {
+        height: 355px;
+    }
+
     #sidetoside {
         display: flex;
         background-color: #2a3e40;
@@ -381,7 +394,7 @@ aside {
     .flex-container>h5 {
         font-size: 30px;
         text-align: right;
-        background-color: #97c3b496;
+
     }
 
     .nav-bar {
@@ -443,6 +456,15 @@ aside {
         justify-content: space-evenly;
     }
 
+    .services {
 
+        height: 538px;
+
+    }
+
+    .services1 {
+
+        height: 538px;
+    }
 
 }
