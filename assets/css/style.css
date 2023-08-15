@@ -98,7 +98,6 @@ legend {
 
 .social-media {
     text-align: center;
-    font-size: x-large;
     display: flex;
     justify-content: space-evenly;
     background-color: #97c3b4;
@@ -271,6 +270,11 @@ legend {
         line-height: 1.5;
     }
 
+    .social-media {
+
+        font-size: 1.5rem;
+    }
+
     #sidetoside {
         display: flex;
         background-color: #2a3e40;
@@ -335,6 +339,11 @@ legend {
         line-height: 1.8;
     }
 
+    .social-media {
+
+        font-size: 2rem;
+    }
+
     #sidetoside {
         display: flex;
         background-color: #2a3e40;
@@ -389,6 +398,18 @@ legend {
     .booking {
         font-size: x-large;
         line-height: 2;
+    }
+
+    .social-media {
+
+        font-size: 3rem;
+    }
+
+
+
+    #title {
+        font-size: 5em;
+
     }
 
     #title {
