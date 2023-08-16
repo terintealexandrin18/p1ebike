@@ -491,4 +491,10 @@ aside {
         font-weight: 500;
 
     }
+
+    .conversion:hover {
+        width: 538px;
+        height: 538px;
+        border-radius: 20px;
+    }
 }
