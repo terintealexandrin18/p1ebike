@@ -202,6 +202,12 @@ aside {
     padding: 10px;
 }
 
+a:hover {
+
+    font-size: 150%;
+    font-weight: 500;
+
+}
 
 #nav {
     text-align: center;
