@@ -67,6 +67,16 @@ footer {
     margin-top: auto;
 }
 
+.google-map {
+    height: 200px;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+
+}
+
 /* style the current page by adding background */
 .active {
     background-color: #97c3b4;
