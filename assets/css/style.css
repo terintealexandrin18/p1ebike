@@ -1,6 +1,8 @@
+/* Import from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
+/* 1a General Style that are applyng to all pages */
 body {
     font-family: 'Mukta', sans-serif;
     min-height: 100vh;
@@ -8,19 +10,81 @@ body {
     flex-direction: column;
 }
 
+/* header, title */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Mono',
+        monospace;
+    text-transform: none;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
+}
 
+#title {
+    color: #2a3f29;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    text-shadow: 2px 2px 8px #97c3b4;
+}
+
+/* Navigation bar style */
+.nav-bar {
+    font-family: 'REM', sans-serif;
+    color: #52645d;
+}
+
+#nav {
+    text-align: center;
+    padding: 5px 30px 30px 30px;
 }
 
 nav a {
     text-decoration: none;
     color: inherit;
     padding: 4px 10px 4px 10px;
+}
+
+/* Footer. Style   */
+.social-media {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #97c3b4;
+    border-radius: 15px 15px 0 0;
 
 }
 
+footer {
+    padding-top: 30px;
+    margin-top: auto;
+}
+
+/* style the current page by adding background */
+.active {
+    background-color: #97c3b4;
+    border-radius: 15px;
+}
+
+
+/* style the "opening time" and "Find us (Footer)" */
+legend {
+    font-family: 'REM', sans-serif;
+    text-align: center;
+    color: #2a3f29;
+    font-size: 20px;
+}
+
+/* 1 Index.html */
+
+/* Style the booking of word "here" from promotion section - link to Contact page  */
 p a {
     text-decoration: none;
     color: #2a3e40;
@@ -31,54 +95,14 @@ p a {
     font-size: 120%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Roboto Mono',
-        monospace;
-    text-transform: none;
-
-}
-
-footer {
-
-    padding-top: 30px;
-    margin-top: auto;
-}
-
-textarea {
-    width: 100%
-}
-
+/* change the bullets from unordered list  */
 ul {
     list-style-type: square;
 }
 
-.nav-bar {
-    font-family: 'REM', sans-serif;
-    color: #52645d;
 
-}
 
-legend {
-    font-family: 'REM', sans-serif;
-    text-align: center;
-    color: #2a3f29;
-    font-size: 20px;
-}
-
-aside {
-    width: 300px;
-}
-
-.active {
-    background-color: #97c3b4;
-    border-radius: 15px;
-
-}
+/* style the background picture, image and text */
 
 .flex-container {
     display: flex;
@@ -93,29 +117,29 @@ aside {
     background-color: #97c3b4c9;
 }
 
-.google-map {
-    height: 200px;
-
-}
-
-.google-map iframe {
-    height: 100%;
+#background {
     width: 100%;
+    height: 442px;
+    background-color: #2a3e40;
+    background-image: url('../picture/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 
 }
 
+.driver {
 
-
-
-
-.social-media {
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #97c3b4;
-    border-radius: 15px 15px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
+/* style the body elemnts: text divs */
+
+aside {
+    width: 300px;
+}
 
 .about-us {
     margin: inherit;
@@ -140,6 +164,9 @@ aside {
     padding: 10px;
 }
 
+
+/* 2 Service.html */
+
 .services {
     position: relative;
     width: 300px;
@@ -163,6 +190,13 @@ aside {
     font-size: 20px;
 }
 
+/* 3 Contact.html */
+
+textarea {
+    width: 100%
+}
+
+/* style the banner of the page */
 .banner {
     width: 100%;
     height: 250px;
@@ -174,10 +208,8 @@ aside {
 }
 
 .booking {
-    flex-grow: 1;
     margin: auto;
     border: 3px solid #97c3b4;
-
     text-align: left;
     border-radius: 15px;
 }
@@ -189,6 +221,8 @@ aside {
     margin-bottom: 15px;
     border-radius: 15px;
 }
+
+/* style the submit button  */
 
 .submit {
     display: block;
@@ -202,43 +236,6 @@ aside {
     border-radius: 15px;
 }
 
-.driver {
-
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
-
-
-
-#nav {
-    text-align: center;
-    padding: 5px 30px 30px 30px;
-
-
-}
-
-#title {
-    color: #2a3f29;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-    text-shadow: 2px 2px 8px #97c3b4;
-}
-
-#background {
-    width: 100%;
-    height: 442px;
-    background-color: #2a3e40;
-    background-image: url('../picture/background.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-}
-
-
-
 #book {
     text-align: center;
 }
@@ -250,60 +247,20 @@ aside {
 }
 
 
-
-
 @media only screen and (max-width: 412px) {
 
-    .nav-bar {
-
-        font-size: small;
-
-    }
-
+    /* For small screen; the text from background image will be in the center */
     .flex-container>h5 {
         font-size: 20px;
-
         text-align: center;
     }
+
+    /* Change the direction on small screens  */
 
     .container {
         display: flex;
         align-items: center;
         flex-direction: column;
-    }
-
-    .driver {
-        display: block;
-        width: 90%;
-
-
-    }
-
-    .conversion {
-        padding: 5px;
-        width: 300px;
-        height: 300px;
-    }
-
-    .booking {
-        font-size: small;
-        line-height: 1.5;
-        padding: 10px;
-        width: 90%;
-    }
-
-    .social-media {
-
-        font-size: 1.5rem;
-        padding: 1px;
-    }
-
-    .services {
-        height: 355px;
-    }
-
-    .services1 {
-        height: 355px;
     }
 
     #sidetoside {
@@ -319,40 +276,95 @@ aside {
         align-items: center;
     }
 
+    /* Change the size on small screen  */
+
+    .driver {
+        display: block;
+        width: 90%;
+    }
+
     #title {
         font-size: 2em;
     }
 
     #info {
-
         width: 90%;
-
     }
+
+    .nav-bar {
+        font-size: small;
+    }
+
+    .conversion {
+        padding: 5px;
+        width: 300px;
+        height: 300px;
+    }
+
+
+    .booking {
+        font-size: small;
+        line-height: 1.5;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .social-media {
+        font-size: 1.5rem;
+        padding: 1px;
+    }
+
+    .services {
+        height: 355px;
+    }
+
+    .services1 {
+        height: 355px;
+    }
+
+
+
 
 }
 
 
 
 @media only screen and (min-width: 412px) {
-    #title {
-        font-size: 3em;
-    }
 
+    /* For small screen; the text from background image will be in the center */
     .flex-container>h5 {
         font-size: 25px;
         text-align: center;
     }
 
-    .nav-bar {
-
-        font-size: large;
-    }
-
+    /* Change the direction on larger screen screens  */
     .container {
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
 
+    #sidetoside {
+        display: flex;
+        background-color: #2a3e40;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #sidetoside1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Change the size on larger screen  */
+    #title {
+        font-size: 3em;
+    }
+
+    .nav-bar {
+        font-size: large;
     }
 
     .driver {
@@ -375,7 +387,6 @@ aside {
     }
 
     .social-media {
-
         font-size: 2rem;
         padding: 5px;
     }
@@ -388,24 +399,8 @@ aside {
         height: 355px;
     }
 
-    #sidetoside {
-        display: flex;
-        background-color: #2a3e40;
-        flex-direction: column;
-        align-items: center;
-    }
-
-
-    #sidetoside1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     #info {
-
         width: 75%;
-
     }
 
 }
@@ -413,22 +408,37 @@ aside {
 
 @media only screen and (min-width: 768px) {
 
-
+    /* For largen screen; the text from background image will be in the right */
     .flex-container>h5 {
         font-size: 30px;
         text-align: right;
 
     }
 
-    .nav-bar {
-        font-size: x-large;
-    }
-
+    /* Change the direction on larger screen screens  */
     .container {
         display: flex;
         justify-content: center;
         flex-direction: row;
+    }
 
+    #sidetoside {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        background-color: #2a3e40;
+    }
+
+    #sidetoside1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /* Change the size on larger screen  */
+
+    .nav-bar {
+        font-size: x-large;
     }
 
     .driver {
@@ -456,32 +466,12 @@ aside {
     }
 
 
-
     #title {
         font-size: 5em;
-
-    }
-
-    #title {
-        font-size: 5em;
-    }
-
-    #sidetoside {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-        background-color: #2a3e40;
-    }
-
-    #sidetoside1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
     }
 
     .services {
         height: 538px;
-
     }
 
     .services1 {
@@ -492,6 +482,7 @@ aside {
         width: 50%;
     }
 
+    /* Hover efect on larger screen; size increase  */
     .nav-bar a:hover {
 
         font-size: 150%;
