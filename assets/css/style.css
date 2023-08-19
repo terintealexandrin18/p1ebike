@@ -272,7 +272,7 @@ textarea {
         flex-direction: column;
     }
 
-    #sidetoside {
+    .sidetoside {
         display: flex;
         background-color: #2a3e40;
         flex-direction: column;
@@ -357,7 +357,7 @@ textarea {
         flex-direction: column;
     }
 
-    #sidetoside {
+    .sidetoside {
         display: flex;
         background-color: #2a3e40;
         flex-direction: column;
@@ -439,7 +439,7 @@ textarea {
         flex-direction: row;
     }
 
-    #sidetoside {
+    .sidetoside {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-evenly;
