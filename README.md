@@ -34,6 +34,12 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
    - Accessibility
    - Tools Testing
    - Manual Testing
+5. Deployment
+6. Credits
+   - Content
+   - Media
+   - Code
+7. Acknowledgements
 
 <hr>
 
@@ -86,8 +92,8 @@ The font utilized on the webpage for body elements is **'Mukta', Sans-serif**, w
 
 <img src="assets/picture/readmefiles/navbar.jpg" alt="Navigation bar">
 
-- The navigation bar displays the current active page with a green background (only for large screens).
-- The navigation bar will increase in size when the mouse is placed above it.
+- The navigation bar displays the current active page with a green background.
+- The navigation bar will increase in size when the mouse is placed above it (only for large screens).
 - On smaller screens, the font size of the navigation bar is reduced.
 
 ### Landing Page
@@ -124,7 +130,7 @@ About us Section
 
 - This section showcases the most commonly used services.
 - This section contains photos showcasing the services we provide for our customers.
-- The photos will increase in size when the mouse is placed above it.
+- The photos will increase in size when the mouse is placed above it (only for large screen).
 - The section displays the image and text horizontally on larger screens, and vertically on smaller screens.
   
   <img src="assets/picture/readmefiles/servicepagemobile.jpg" alt="service page text and image with e-bike conversion kit">
@@ -196,13 +202,11 @@ About us Section
  | Services |      ✓   | <img src="assets/picture/readmefiles/w3htmlservices.jpg" alt="html validation pass">|
  | Contact  |      ✓   | <img src="assets/picture/readmefiles/w3htmlcontact.jpg" alt="html validation pass"> |
 
-
  CSS Validation
 
 | Page     | Pass/Fail|  Results                                                                  |
  |--------- |----------| -----------------------------------------------------------------------------------|
  | CSS    |      ✓   | <img src="assets/picture/readmefiles/w3css.jpg" alt="css validation pass">  |
- 
 
 ### Accessibility
 
@@ -214,3 +218,89 @@ About us Section
  | Services |  <img src="assets/picture/readmefiles/lhservices.jpg" alt="html validation pass">|
  | Contact  |  <img src="assets/picture/readmefiles/lhcontact.jpg" alt="html validation pass"> |
 
+### Tools Testing
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools)
+  - Used to review the code, test its responsiveness, and make any necessary adjustments in real time.
+  
+- Responsiveness
+  - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to ensure that the design remained responsive throughout the process and to create mockup images for use.
+  - [Chrome DevTools](https://developer.chrome.com/docs/devtools) - Utilized for testing the responsiveness of the devices accessible through devtools.
+
+### Manual Testing
+
+- Browser Compatibility. The website has been tested on the following browsers:
+  - Google Chrome - No issues found,
+  - Microsoft Edge - No issues found.
+  - Safari - No issues found.
+
+- Device Compatibility. The website has been tested on the following devices:
+  - Iphone 8 Plus - Encountered an issue with the form as its length exceeded the form border. To fix it had to adjust its size to 90% width.
+  - Iphone 13 Pro Max - No issues found.
+  - Samsung Galaxy Tab A7 - No issues found.
+  - Samsung Galaxy S10 Plus - No issues found.
+  - Samsung Galaxy S22 Ultra 5G - No issues found.
+  - Microsoft Surface Pro X - No issues found.
+
+- Elements testing on the page:
+
+  - Header
+
+    - Checked when clicking on the header will take you to the main page.
+  
+  - Navigation Bar
+  
+    - Checked the navigation bar displays the current active page with a green background.
+    - Checked the navigation bar will increase in size when the mouse is placed above it (only for large screens).
+    - Checked on smaller screens, the font size of the navigation bar is reduced.
+  
+  - Footer
+
+    - Checked the maps is fully responsive on different size of the screen.
+    - Checked the zoom of the maps by clicking on plus and minus buttons.
+    - Checked the social media links will open in a new tab.
+
+  - Index Page
+  
+    - Checked the page is fully responsive on small screens and large screens.
+    - Checked on the small screen the body elements are aligned vertically.
+    - Checked when clicking on the "contact page" link button will redirect to Contact Page.
+  
+  - Services Page
+
+    - Checked the photos will increse in size when the mouse is placed above it.
+    - Checked the section displays the image and text horizontally on larger screens, and vertically in smaller screens.
+
+  - Contact Page
+
+    - Checked one by one that all fields from the form need to be filed in before submitted; apart from Comments and Notes.
+
+## 5. Deployment
+
+- This website was created using Codeanywhere and then used the git push command to commit and push it to GitHub.
+
+- GitHub pages. The steps are
+  1. Log into GitHub.
+  2. Navigate to your repositories and select the project you want to deploy.
+  3. Click on "Settings" located on the right-hand side and scroll down until you find the "Pages".
+  4. Under "Source," click on the dropdown and choose "main" branch. Then, click on the "Save" button.
+  5. The page will reload, and you will see a link to your published page displayed under "GitHub Pages."
+  6. The site will be published in a few minutes.
+  7. Congratulations, you have successfully deployed your project!
+
+## 6. Credits
+
+### Content
+
+- The whole content was written by the developer
+
+### Media
+
+- [Yose Power](https://www.yosepower.co.uk) - Used for second and last image for service page.
+- [Voilmart](https://www.voilamart.co.uk) - Used for first image for service page.
+- [Pixabay](https://pixabay.com) - Used the image of the delivery driver for index page.
+- [Pexels](https://www.pexels.com) - Used the images for the main page and contact page.
+
+### Code
+
+W3Schools was consulted to understand which code I should apply in my situation; how to use the code and for self-learning.
