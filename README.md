@@ -34,12 +34,13 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
    - Accessibility
    - Tools Testing
    - Manual Testing
-5. Deployment
-6. Credits
+5. Finished Product
+6. Deployment
+7. Credits
    - Content
    - Media
    - Code
-7. Acknowledgements
+8. Acknowledgements
 
 <hr>
 
@@ -244,6 +245,7 @@ About us Section
 
 - Elements testing on the page:
 
+(All the below has been tested on the page, and all run and respond properly.)
   - Header
 
     - Checked when clicking on the header will take you to the main page.
@@ -275,7 +277,15 @@ About us Section
 
     - Checked one by one that all fields from the form need to be filed in before submitted; apart from Comments and Notes.
 
-## 5. Deployment
+## 5. Finished Product
+
+Page | Desktop version | Mobile version
+--- | --- | ---
+Index | ![Desktop Index Page](assets/picture/readmefiles/index_desktop.png) | ![Mobile Index Page](assets/picture/readmefiles/index_mobile.png)
+Services | ![Desktop Services Page](assets/picture/readmefiles/services_desktop.png) | ![Mobile Services Page](assets/picture/readmefiles/services_mobile.png)
+Contact | ![Desktop Contact Page](assets/picture/readmefiles/contact_desktop.png) | ![Mobile Contact Page](assets/picture/readmefiles/contact_mobile.png)
+
+## 6. Deployment
 
 - This website was created using Codeanywhere and then used the git push command to commit and push it to GitHub.
 
@@ -288,7 +298,7 @@ About us Section
   6. The site will be published in a few minutes.
   7. Congratulations, you have successfully deployed your project!
 
-## 6. Credits
+## 7. Credits
 
 ### Content
 
@@ -303,4 +313,12 @@ About us Section
 
 ### Code
 
-W3Schools was consulted to understand which code I should apply in my situation; how to use the code and for self-learning.
+- [W3Schools](https://www.w3schools.com) - Used to assist with the necessary codes or for clearer comprehension.
+
+## 8. Acknowledgements
+
+- My wife for checking the website and providing with valuable feedback.
+
+- Marcel, my tutor for guidance and feedback.
+  
+- Code institute team for support.
