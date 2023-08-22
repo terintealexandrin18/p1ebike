@@ -13,11 +13,11 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 ## Table of Contents
 
-1. User Experience
-   - Project Goal
-   - User Stories
-   - Color Scheme
-   - Typography
+1. [User Experience](#user-experience)
+   1. [Project Goal](#project-goal)
+   2. [User Stories](#user-stories)
+   3. [Color Scheme](#color-scheme)
+   4. [Typography](#typography)
 2. Features
    - Header
    - Navigation
@@ -54,17 +54,17 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 ### User Stories
 
-#### Home
+#### - Home
 
 - As a customer, I want to easily navigate the website.
 - As a customer, I want a website that is both straightforward and informative.
 
-#### Service
+#### - Service
 
 - As a customer, I would appreciate having access to information regarding the frequently provided services.
 - As a customer, I would like to view pictures of the parts that are being sold.
 
-#### Contact
+#### - Contact
 
 - As a customer, I want to conveniently schedule an appointment.
 - As a customer, I want to locate the business effortlessly.
@@ -74,11 +74,11 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 <img src="assets/picture/readmefiles/colorscheme.jpg" alt="color schame, green sahde">
 
-The color used is a slightly different shade of green, as it closely resembles the dark color of the bikes.
+- The color used is a slightly different shade of green, as it closely resembles the dark color of the bikes.
 
 ### Typography
 
-The font utilized on the webpage for body elements is **'Mukta', Sans-serif**, while headers use **'Roboto Mono', monospace**. For the navigation bar, legend, and submit button, **'REM', Sans-serif** is used.
+- The font utilized on the webpage for body elements is **'Mukta', Sans-serif**, while headers use **'Roboto Mono', monospace**. For the navigation bar, legend, and submit button, **'REM', Sans-serif** is used.
 
 ## 2 Features
 
@@ -88,30 +88,33 @@ The font utilized on the webpage for body elements is **'Mukta', Sans-serif**, w
 
 - The header displays the name and type of the business.
 - The header serves as a navigation link too. Clicking on it will redirect you to the home page.
+- The value of the header is to help the user easily identify the business type and quickly navigate back to the homepage when necessary.
 
 ### Navigation
 
 <img src="assets/picture/readmefiles/navbar.jpg" alt="Navigation bar">
 
-- The navigation bar displays the current active page with a green background.
-- The navigation bar will increase in size when the mouse is placed above it (only for large screens).
-- On smaller screens, the font size of the navigation bar is reduced.
+- The navigation bar displays the current active page with a green background. The value of the feature is to assist the user in identifying the current page they are navigating.
+- The navigation bar will increase in size when the mouse is placed above it (only for large screens). The value of the feature is to enhance our ability to navigate through the available pages.
+- On smaller screens, the font size of the navigation bar is reduced. The value of this feature is to adjust the navigation for smaller screens without affecting the page's interface.
+- The value of the navigation bar is to enable customers to easily navigate through the website without having to go back to previous pages.
 
 ### Landing Page
 
-Main Image Section
+#### - Main Image Section
 
 <img src="assets/picture/readmefiles/landingpage1.jpg" alt="E-bike image with company motto">
 
 - The primary image on the website is intended to inform customers about the nature of our business, our mission, and our company motto.
+- The value of the image is to capture the user's attention and encourage them to stay on the page.
 
-About us Section
+#### - About us Section
 
 <img src="assets/picture/readmefiles/aboutus.jpg" alt="about us section, text picture with a food delivery driver, promotion text and opening hours">
 
 - The section contain information about the business and its specialties.
-- The section contains details about the offer currently available for delivery drivers.
-- The section displays the operating hours.
+- The section contains details about the offer currently available for delivery drivers. The value of that is to attract the majority of customers.
+- The section displays the operating hours. The value of the feature is for the customer to know the operating hours.
 - The section displays the image and text horizontally on larger screens, and vertically on smaller screens.
   
 <img src="assets/picture/readmefiles/aboutusvertical.jpg" alt="text about us and image with a delivery driver"> <br>
@@ -189,13 +192,14 @@ About us Section
 ### Code Validation
 
 - Used W3C Markup Validator and W3C CSS Validator services to ensure that there were no errors.
-- W3C Markup Validator found: a duplicate ID, which was promptly transformed into a Class to fix the issue.
-- W3C Markup Validator found: a section without a header, so a hidden header was added to rectify the issue.
-- W3C Markup Validator found: an issue with the dropdown service, which was resolved by adding an additional option labeled "none" with no value.
-- W3C Markup Validator found: trailing slash on void elements; automatically added by Codeinstitute template. Fixed by contacting Codeinstitute and changed the "settings.json file"
-- W3C CSS Validator found no issues.
+  - W3C Markup Validator found:
+    - A duplicate ID, which was promptly transformed into a Class to fix the issue.
+    - A section without a header, so a hidden header was added to rectify the issue.
+    - An issue with the dropdown service, which was resolved by adding an additional option labeled "none" with no value.
+    - Trailing slash on void elements; automatically added by Codeinstitute template. Fixed by contacting Codeinstitute and changed the "settings.json file"
+- W3C CSS Validator found no issues on the final website.
   
-  HTML Validation
+#### - HTML Validation
 
  | Page     | Pass/Fail|  Results                                                                  |
  |--------- |----------| -----------------------------------------------------------------------------------|
@@ -203,7 +207,7 @@ About us Section
  | Services |      ✓   | <img src="assets/picture/readmefiles/w3htmlservices.jpg" alt="html validation pass">|
  | Contact  |      ✓   | <img src="assets/picture/readmefiles/w3htmlcontact.jpg" alt="html validation pass"> |
 
- CSS Validation
+#### - CSS Validation
 
 | Page     | Pass/Fail|  Results                                                                  |
  |--------- |----------| -----------------------------------------------------------------------------------|
@@ -245,37 +249,38 @@ About us Section
 
 - Elements testing on the page:
 
-(All the below has been tested on the page, and all run and respond properly.)
-  - Header
+(Everything has been tested, and can confirm that all of them are functioning correctly and responding appropriately)
 
-    - Checked when clicking on the header will take you to the main page.
+- Header
+
+  - Checked when clicking on the header will take you to the main page.
   
-  - Navigation Bar
+- Navigation Bar
   
-    - Checked the navigation bar displays the current active page with a green background.
-    - Checked the navigation bar will increase in size when the mouse is placed above it (only for large screens).
-    - Checked on smaller screens, the font size of the navigation bar is reduced.
+  - Checked the navigation bar displays the current active page with a green background.
+  - Checked the navigation bar will increase in size when the mouse is placed above it (only for large screens).
+  - Checked on smaller screens, the font size of the navigation bar is reduced.
   
-  - Footer
+- Footer
 
-    - Checked the maps is fully responsive on different size of the screen.
-    - Checked the zoom of the maps by clicking on plus and minus buttons.
-    - Checked the social media links will open in a new tab.
+  - Checked the maps is fully responsive on different size of the screen.
+  - Checked the zoom of the maps by clicking on plus and minus buttons.
+  - Checked the social media links will open in a new tab.
 
-  - Index Page
+- Index Page
   
-    - Checked the page is fully responsive on small screens and large screens.
-    - Checked on the small screen the body elements are aligned vertically.
-    - Checked when clicking on the "contact page" link button will redirect to Contact Page.
+  - Checked the page is fully responsive on small screens and large screens.
+  - Checked on the small screen the body elements are aligned vertically.
+  - Checked when clicking on the "contact page" link button will redirect to Contact Page.
   
-  - Services Page
+- Services Page
 
-    - Checked the photos will increse in size when the mouse is placed above it.
-    - Checked the section displays the image and text horizontally on larger screens, and vertically in smaller screens.
+  - Checked the photos will increse in size when the mouse is placed above it.
+  - Checked the section displays the image and text horizontally on larger screens, and vertically in smaller screens.
 
-  - Contact Page
+- Contact Page
 
-    - Checked one by one that all fields from the form need to be filed in before submitted; apart from Comments and Notes.
+  - Checked one by one that all fields from the form need to be filed in before submitted; apart from Comments and Notes.
 
 ## 5. Finished Product
 
