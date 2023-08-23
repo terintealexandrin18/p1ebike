@@ -48,8 +48,8 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 ### Project Goal
 
-- To create a website that provides users with suitable service offered
-- To highlight the most popular services used by our customers
+- To create a website that provides users with suitable service offered.
+- To highlight the most popular services used by our customers.
 - To offer users the opportunity to get in touch with us and schedule an appointment.
 
 ### User Stories
@@ -62,7 +62,7 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 #### - Service
 
 - As a customer, I would appreciate having access to information regarding the frequently provided services.
-- As a customer, I would like to view pictures of the parts that are being sold.
+- As a customer, I would like to view pictures of the parts that are being provided.
 
 #### - Contact
 
@@ -139,6 +139,7 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 ### Services Page
 
+(Desktop Services Page)
 <img src="assets/picture/readmefiles/servicepage.jpg" alt="service page text and image with e-bike conversion kit">
 
 - This section showcases the most commonly used services.
@@ -150,6 +151,8 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 - The section displays the image and text horizontally on larger screens, and vertically on smaller screens.
   - The value of the future is the content remains visible and readable without requiring users to zoom in or scroll horizontally.
   
+(Mobile Service Page)
+
   <img src="assets/picture/readmefiles/servicepagemobile.jpg" alt="service page text and image with e-bike conversion kit">
 
 ### Contact Page
