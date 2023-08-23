@@ -94,9 +94,12 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 <img src="assets/picture/readmefiles/navbar.jpg" alt="Navigation bar">
 
-- The navigation bar displays the current active page with a green background. The value of the feature is to assist the user in identifying the current page they are navigating.
-- The navigation bar will increase in size when the mouse is placed above it (only for large screens). The value of the feature is to enhance our ability to navigate through the available pages.
-- On smaller screens, the font size of the navigation bar is reduced. The value of this feature is to adjust the navigation for smaller screens without affecting the page's interface.
+- The navigation bar displays the current active page with a green background.
+  - The value of the feature is to assist the user in identifying the current page they are navigating.
+- The navigation bar will increase in size when the mouse is placed above it (only for large screens).
+  - The value of the feature is to enhance our ability to navigate through the available pages.
+- On smaller screens, the font size of the navigation bar is reduced.
+  - The value of this feature is to adjust the navigation for smaller screens without affecting the page's interface.
 - The value of the navigation bar is to enable customers to easily navigate through the website without having to go back to previous pages.
 
 ### Landing Page
@@ -106,16 +109,20 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 <img src="assets/picture/readmefiles/landingpage1.jpg" alt="E-bike image with company motto">
 
 - The primary image on the website is intended to inform customers about the nature of our business, our mission, and our company motto.
-- The value of the image is to capture the user's attention and encourage them to stay on the page.
+  - The value of the image is to capture the user's attention and encourage them to stay on the page.
 
 #### - About us Section
 
 <img src="assets/picture/readmefiles/aboutus.jpg" alt="about us section, text picture with a food delivery driver, promotion text and opening hours">
 
 - The section contain information about the business and its specialties.
-- The section contains details about the offer currently available for delivery drivers. The value of that is to attract the majority of customers.
-- The section displays the operating hours. The value of the feature is for the customer to know the operating hours.
+  - The value of that is to introduce the business to the customer.
+- The section contains details about the offer currently available for delivery drivers.
+  - The value of that is to attract the majority of customers.
+- The section displays the operating hours.
+  - The value of the feature is for the customer to know the operating hours.
 - The section displays the image and text horizontally on larger screens, and vertically on smaller screens.
+  - The value of the future is the content remains visible and readable without requiring users to zoom in or scroll horizontally.
   
 <img src="assets/picture/readmefiles/aboutusvertical.jpg" alt="text about us and image with a delivery driver"> <br>
 
@@ -126,16 +133,22 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 <img src="assets/picture/readmefiles/footer.jpg" alt="social media link and google maps location">
 
 - Footer contains links to our social media platforms.
+  - The value of the feature is designed to help customers stay connected, engaged, and updated with our business.
 - Footer contain the location on Google Maps, allowing the customers to easily find our location.
+  - The value of this feature is to offer precise information to customers, enabling them to easily find the business.
 
 ### Services Page
 
 <img src="assets/picture/readmefiles/servicepage.jpg" alt="service page text and image with e-bike conversion kit">
 
 - This section showcases the most commonly used services.
+  - The value of this feature is to improve the user experience and increase the chances of engagement and conversion.
 - This section contains photos showcasing the services we provide for our customers.
+  - The value of the feature is for understanding and clarifying the services, without needing to read all the descriptions.
 - The photos will increase in size when the mouse is placed above it (only for large screen).
+  - The value of the features is the ability to provide an interactive experience that captures users attention and ultimately enhances the overall user experience.
 - The section displays the image and text horizontally on larger screens, and vertically on smaller screens.
+  - The value of the future is the content remains visible and readable without requiring users to zoom in or scroll horizontally.
   
   <img src="assets/picture/readmefiles/servicepagemobile.jpg" alt="service page text and image with e-bike conversion kit">
 
@@ -144,11 +157,14 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 <img src="assets/picture/readmefiles/contactpage.jpg" alt="contact detail, address and the form for a booking">
 
 - In this section, our email address and contact number are provided for easy access to customers who wish to contact us.
+  - The value of this feature is to allow customers to easily contact the business, improving accessibility, trust, customer support, and communication.
 - Our customers can conveniently schedule appointments through the website using the booking form.
+  - This feature allows customers to schedule appointments through the website using the booking form. It offers the convenience of choosing a desired time slot and aims to provide customer satisfaction.
 
 ### Future Features
   
 - In the near future, we plan to create a gallery page showcasing the services we have provided.
+  - The value of this feature is to showcase the services we have provided to our customers. This can greatly influence the user's choice to utilize our services.
 
 ## 3 Technologies
 
@@ -179,7 +195,7 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
 
 - [GitHub](https://github.com) - Used to store the project after finishing writing in Codeanywhere.
 
-- [Am I Responsive?](https://ui.dev/amiresponsive) - Used to ensure that the design remained responsive throughout the process and to create mockup images for use.
+- [Am I Responsive?](https://ui.dev/amiresponsive) - Used to ensure that the design remained responsive throughout the process and to create mock-up images for use.
 
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools) - Used to review the code, test its responsiveness, and make any necessary adjustments in real time.
 
@@ -195,7 +211,7 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
   - W3C Markup Validator found:
     - A duplicate ID, which was promptly transformed into a Class to fix the issue.
     - A section without a header, so a hidden header was added to rectify the issue.
-    - An issue with the dropdown service, which was resolved by adding an additional option labeled "none" with no value.
+    - An issue with the dropdown service, which was resolved by adding an additional option labelled "none" with no value.
     - Trailing slash on void elements; automatically added by Codeinstitute template. Fixed by contacting Codeinstitute and changed the "settings.json file"
 - W3C CSS Validator found no issues on the final website.
   
@@ -229,8 +245,8 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
   - Used to review the code, test its responsiveness, and make any necessary adjustments in real time.
   
 - Responsiveness
-  - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to ensure that the design remained responsive throughout the process and to create mockup images for use.
-  - [Chrome DevTools](https://developer.chrome.com/docs/devtools) - Utilized for testing the responsiveness of the devices accessible through devtools.
+  - [Am I Responsive?](https://ui.dev/amiresponsive) - Used to ensure that the design remained responsive throughout the process and to create mock-up images for use.
+  - [Chrome DevTools](https://developer.chrome.com/docs/devtools) - Utilized for testing the responsiveness of the devices accessible through DevTools.
 
 ### Manual Testing
 
@@ -240,8 +256,8 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
   - Safari - No issues found.
 
 - Device Compatibility. The website has been tested on the following devices:
-  - Iphone 8 Plus - Encountered an issue with the form as its length exceeded the form border. To fix it had to adjust its size to 90% width.
-  - Iphone 13 Pro Max - No issues found.
+  - IPhone 8 Plus - Encountered an issue with the form as its length exceeded the form border. To fix it had to adjust its size to 90% width.
+  - IPhone 13 Pro Max - No issues found.
   - Samsung Galaxy Tab A7 - No issues found.
   - Samsung Galaxy S10 Plus - No issues found.
   - Samsung Galaxy S22 Ultra 5G - No issues found.
@@ -275,7 +291,7 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
   
 - Services Page
 
-  - Checked the photos will increse in size when the mouse is placed above it.
+  - Checked the photos will increase  in size when the mouse is placed above it.
   - Checked the section displays the image and text horizontally on larger screens, and vertically in smaller screens.
 
 - Contact Page
