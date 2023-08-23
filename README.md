@@ -18,29 +18,29 @@ E-Bike Specialist is a website that was created out of necessity. With the e-bik
    2. [User Stories](#user-stories)
    3. [Color Scheme](#color-scheme)
    4. [Typography](#typography)
-2. Features
-   - Header
-   - Navigation
-   - Landing Page
-   - Footer
-   - Services Page
-   - Contact Page
-   - Future Features
-3. Technologies
-   - Languages Used
-   - Frameworks, Libraries and Programs Used
-4. Testing
-   - Code Validation
-   - Accessibility
-   - Tools Testing
-   - Manual Testing
-5. Finished Product
-6. Deployment
-7. Credits
-   - Content
-   - Media
-   - Code
-8. Acknowledgements
+2. [Features](#features)
+   1. [Header](#header)
+   2. [Navigation](#navigation)
+   3. [Landing Page](#landing-page)
+   4. [Footer](#footer)
+   5. [Services Page](#services-page)
+   6. [Contact Page](#contact-page)
+   7. [Future Features](#future-features)
+3. [Technologies](#3-technologies)
+   1. [Languages Used](#languages-used)
+   2. [Frameworks, Libraries and Programs Used](#frameworks-libraries-and-programs-used)
+4. [Testing](#4-testing)
+   1. [Code Validation](#code-validation)
+   2. [Accessibility](#accessibility)
+   3. [Tools Testing](#tools-testing)
+   4. [Manual Testing](#manual-testing)
+5. [Finished Product](#5-finished-product)
+6. [Deployment](#deployment)
+7. [Credits](#7-credits)
+   1. [Content](#content)
+   2. [Media](#media)
+   3. [Code](#code)
+8. [Acknowledgements](#8-acknowledgements)
 
 <hr>
 
